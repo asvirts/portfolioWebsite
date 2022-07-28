@@ -1,2 +1,2 @@
-let dev = 5
-console.log(dev)
+let aws = 104
+console.log(aws)
