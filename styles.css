@@ -44,7 +44,7 @@ a:hover {
     border: none;
     color: #005e48;
     filter: drop-shadow(1vw 1vw 1vw #000000);
-    padding: 1vw 1vw;
+    padding: 1vh 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
