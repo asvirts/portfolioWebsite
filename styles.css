@@ -27,6 +27,12 @@ body {
 @font-face { font-family: san-francisico-bold; src: url('Fonts/San Francisco/SFNSDisplay-Bold.otf'); }
 @font-face { font-family: san-francisco-thin; src: url('Fonts/San Francisco/SFNSDisplay-Thin.otf'); }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
 h1 {
     color: white;
     font-family: Juliette;
