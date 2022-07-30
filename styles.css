@@ -42,10 +42,14 @@ h3 {
     font-family: san-francisico-regular;
     font-size: 1vw;
 }
-img {
+img.header {
+    size: 2.5vw;
+    width: 24vw;
+}
+img.profile {
     border-radius: 50%;
     filter: drop-shadow(10px 10px 4px #000000);
-    size: 0.5vw;
+    width: 12vw;
 }
 li {
     color: #FFFFFF;
@@ -54,6 +58,13 @@ li {
 }
 p {
     color: white;
+}
+table {
+    border: 1px;
+    border-spacing: 1vw;
+    color: #FFFFFF;
+    font-family: san-francisco-thin;
+    font-size: 0.7vw;
 }
 ul {
     color: #FFFFFF;
