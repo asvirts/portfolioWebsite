@@ -43,10 +43,10 @@ a:hover {
     background-color: #005e48;
     border: none;
     color: #005e48;
-    filter: drop-shadow(10px 10px 4px #000000);
-    padding: 10px 32px;
+    filter: drop-shadow(1vw 1vw 1vw #000000);
+    padding: 1vw 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.7vw;
+    font-size: 0.5vw;
 }
