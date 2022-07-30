@@ -1,7 +1,24 @@
+a {
+    color: white;
+}
+a:hover {
+    color: #063d2f;
+}
 body {
     background-color: #063d2f;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
+}
+.button {
+    background-color: #005e48;
+    border: none;
+    color: #005e48;
+    filter: drop-shadow(1vw 1vw 1vw #000000);
+    padding: 1vh 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vh 1vw;
 }
 
 /* Fonts */
@@ -25,28 +42,21 @@ h3 {
     font-family: san-francisico-regular;
     font-size: 1vw;
 }
-p {
-    color: white;
-}
 img {
     border-radius: 50%;
     filter: drop-shadow(10px 10px 4px #000000);
     size: 0.5vw;
 }
-a {
+li {
+    color: #FFFFFF;
+    font-family: san-francisco-thin;
+    font-size: 0.7vw;
+}
+p {
     color: white;
 }
-a:hover {
-    color: #063d2f;
-}
-.button {
-    background-color: #005e48;
-    border: none;
-    color: #005e48;
-    filter: drop-shadow(1vw 1vw 1vw #000000);
-    padding: 1vh 1vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1vh 1vw;
+ul {
+    color: #FFFFFF;
+    font-family: san-francisco-thin;
+    font-size: 0.7vw;
 }
