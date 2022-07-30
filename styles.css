@@ -10,6 +10,7 @@ body {
     font-size: 0.7vw;
 }
 .button {
+    child-align: auto;
     background-color: #005e48;
     border: none;
     color: #005e48;
@@ -70,4 +71,17 @@ ul {
     color: #FFFFFF;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
+}
+
+.column {
+    float: left;
+    padding: 25px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
 }
