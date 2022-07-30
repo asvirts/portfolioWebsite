@@ -10,7 +10,6 @@ body {
     font-size: 0.7vw;
 }
 .button {
-    child-align: auto;
     background-color: #005e48;
     border: none;
     color: #005e48;
