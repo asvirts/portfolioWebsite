@@ -15,7 +15,8 @@ header {
     padding-top: 1%;
 }
 p {
-    font-size: 2.5rem;
+    font-size: 250%;
     font-family: PTSans-Regular;
-    justify: center;
+    justify-content: center;
+    overflow-wrap: break-word;
 }
