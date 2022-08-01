@@ -18,5 +18,8 @@ p {
     font-size: 250%;
     font-family: PTSans-Regular;
     justify-content: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    max-width: 65%;
     overflow-wrap: break-word;
 }
