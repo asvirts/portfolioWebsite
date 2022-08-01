@@ -5,8 +5,17 @@
     src: url(Fonts/PTSans-Regular.ttf);
   }
 
-/* HEADER */
+
+/* TEXT */
 
 header {
+    text-align: center;
+    font-size: 135%;
     font-family: PTSans-Regular;
+    padding-top: 1%;
+}
+p {
+    font-size: 2.5rem;
+    font-family: PTSans-Regular;
+    justify: center;
 }
