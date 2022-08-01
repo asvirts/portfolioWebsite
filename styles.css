@@ -2,7 +2,7 @@ a {
     color: white;
 }
 a:hover {
-    color: #063d2f;
+    color: #E2DCC8;
 }
 body {
     background-color: #F1F1F1;
@@ -37,12 +37,12 @@ footer {
 h1 {
     color: #0F3D3E;
     font-family: Juliette;
-    font-size: 1.75vw;
+    font-size: 250%;
 }
 h2 {
-    color: #E2DCC8;
+    color: #0F3D3E;
     font-family: san-francisico-bold;
-    font-size: 1vw;
+    font-size: 150%;
 }
 h3 {
     color: #0F3D3E;
@@ -60,8 +60,8 @@ img.header {
 }
 img.profile {
     border-radius: 50%;
-    filter: drop-shadow(10px 10px 4px #000000);
-    width: 12vw;
+    filter: drop-shadow(10px 10px 4px #E2DCC8);
+    width: 60%;
 }
 input {
     color: white;
