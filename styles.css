@@ -14,7 +14,7 @@ header {
     font-family: PTSans-Regular;
     padding-top: 1%;
 }
-p {
+p.opener {
     font-size: 250%;
     font-family: PTSans-Regular;
     justify-content: center;
