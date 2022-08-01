@@ -1,4 +1,10 @@
+/* FONTS */
+@font-face {
+    font-family: 'PTSansRegular';
+    src:  url('Fonts\PTSans-Regular.ttf') format('woff2'),
+  }
+
 /* HEADER */
 header {
-    font-family: sans-serif;
+    font-family: PTSansRegular;
 }
