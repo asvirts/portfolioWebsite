@@ -5,12 +5,12 @@ a:hover {
     color: #063d2f;
 }
 body {
-    background-color: #063d2f;
+    background-color: #F1F1F1;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
 }
 .button {
-    background-color: #005e48;
+    background-color: #0F3D3E;
     border: none;
     color: #005e48;
     filter: drop-shadow(1vw 1vw 1vw #000000);
@@ -28,23 +28,24 @@ body {
 @font-face { font-family: san-francisco-thin; src: url('Fonts/San Francisco/SFNSDisplay-Thin.otf'); }
 
 footer {
+    color: #063d2f;
     position: fixed;
     bottom: 0;
     text-align: center;
 }
 
 h1 {
-    color: white;
+    color: #0F3D3E;
     font-family: Juliette;
     font-size: 1.75vw;
 }
 h2 {
-    color: white;
+    color: #E2DCC8;
     font-family: san-francisico-bold;
     font-size: 1vw;
 }
 h3 {
-    color: white;
+    color: #0F3D3E;
     font-family: san-francisico-regular;
     font-size: 1vw;
 }
@@ -68,7 +69,7 @@ input {
     font-size: 0.75vw;
 }
 input.submit {
-    color: black;
+    color: #0F3D3E;
     font-family: san-francisico-regular;
     font-size: 0.75vw;
 }
@@ -78,22 +79,22 @@ label {
     font-size: 0.75vw;
 }
 li {
-    color: #FFFFFF;
+    color: #100F0F;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
 }
 p {
-    color: white;
+    color: #76549A;
 }
 table {
     border: 1px;
     border-spacing: 1vw;
-    color: #FFFFFF;
+    color: #100F0F;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
 }
 ul {
-    color: #FFFFFF;
+    color: #100F0F;
     font-family: san-francisco-thin;
     font-size: 0.7vw;
 }
