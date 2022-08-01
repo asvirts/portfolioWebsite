@@ -39,15 +39,15 @@ footer {
 header {
     color: #0F3D3E;
     font-family: san-francisico-bold;
+    font-size: 0.75vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-space: 2;
 }
 h1 {
     color: #0F3D3E;
     font-family: Juliette;
-    font-size: 150%;
+    font-size: 1.25vw;
     padding-right: 25%;
 }
 h2 {
