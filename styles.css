@@ -1,5 +1,7 @@
 a {
     color: #0F3D3E;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 a:hover {
     color: #E2DCC8;
@@ -29,27 +31,24 @@ body {
 
 footer {
     color: #063d2f;
-    position: fixed;
+    display: flex;
     bottom: 0;
-    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
-header.left {
+header {
     color: #0F3D3E;
-    display: inline;
-    font-family: Juliette;
-    font-size: 150%;
-}
-header.right {
-    color: #0F3D3E;
-    display: inline;
     font-family: san-francisico-bold;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-space: 2;
 }
 h1 {
-    display: inline;
     color: #0F3D3E;
     font-family: Juliette;
-    font-size: 250%;
+    font-size: 150%;
+    padding-right: 25%;
 }
 h2 {
     color: #0F3D3E;
