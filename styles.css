@@ -1,13 +1,13 @@
 /* BODY ELEMENTS */
 
 body {
-    background-color: #F9F5EB;
+    background-color: #F1F1F1;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #EAE3D2;
+    border-color: #E2DCC8;
     border-width: 5px;
     width: 75px;
 }
@@ -17,34 +17,31 @@ hr {
 img {
     border-radius: 50%;
     height: auto;
-    width: auto;
+    width: 75%;
 }
 
 /* TEXT */
 
 a {
-    color: #607EAA;
+    color: #E2DCC8;
 }
 a:hover {
-    color: #1C3879;
+    color: #0F3D3E;
 }
-h1 {
-    color: #607EAA;
-}
-
+h1,
 h3 {
-    color: #1C3879;
+    color: #0F3D3E;
 }
 p {
-    color: #1C3879;
+    color: #100F0F;
 }
 table {
-    color: #1C3879;
+    color: #100F0F;
     border-spacing: 10px;
 }
 th {
-    color: #607EAA;
+    color: #0F3D3E;
 }
 ul {
-    color: #1C3879;
+    color: #100F0F;
 }
