@@ -1,0 +1,47 @@
+/* BODY ELEMENTS */
+
+body {
+    background-color: #F9F5EB;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAE3D2;
+    border-width: 5px;
+    width: 75px;
+}
+
+/* IMAGES */
+
+img {
+    border-radius: 50%;
+    height: auto;
+    width: 50%;
+}
+
+/* TEXT */
+
+a {
+    color: #1C3879;
+}
+a:hover {
+    color: #607EAA;
+}
+h1 {
+    color: #1C3879;
+}
+
+h3 {
+    color: #607EAA;
+}
+p {
+    color: #1C3879;
+}
+table {
+    color: #1C3879;
+    border-spacing: 10px;
+}
+ul {
+    color: #1C3879;
+}
