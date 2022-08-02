@@ -23,10 +23,10 @@ img {
 /* TEXT */
 
 a {
-    color: #1C3879;
+    color: #607EAA;
 }
 a:hover {
-    color: #607EAA;
+    color: #1C3879;
 }
 h1 {
     color: #607EAA;
@@ -41,6 +41,9 @@ p {
 table {
     color: #1C3879;
     border-spacing: 10px;
+}
+th {
+    color: #607EAA;
 }
 ul {
     color: #1C3879;
