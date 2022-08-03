@@ -31,7 +31,8 @@ body {
 
 .top-container {
     padding-top: 5%;
-    position: relative;
+    height: auto;
+    width: auto;
 }
 
 .middle-container {
@@ -98,11 +99,6 @@ img {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     border: 0 0 0 0;
-}
-
-img.mountain {
-    max-height: auto;
-    max-width: fit-content;
 }
 
 img.profile-pic {
