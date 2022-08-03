@@ -11,6 +11,14 @@ a.nav-link {
     margin-left: 2.5em;
 }
 
+.nav-menu {
+    margin: 2.5em auto 0 auto;
+    width: 23%;
+    height: auto;
+    display: inline-block;
+    flex-direction: column;
+}
+
 .btn {
     color: #637b81;
 }
@@ -25,14 +33,12 @@ body {
     text-align: center;
 }
 
-.nav-menu {
-    padding-top: 1.5%;
-}
-
 .top-container {
-    padding-top: 5%;
+    margin: 10em auto;
+    width: 23%;
     height: auto;
-    width: auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .middle-container {
