@@ -1,9 +1,14 @@
 a {
-    color: #c2cde7;
+    color: #27363b;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
     text-decoration: none;
+}
+
+a.nav-link {
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
 .btn {
@@ -11,11 +16,11 @@ a {
 }
 
 a:hover {
-    color: #fbfcfd;
+    color: #637b81;
 }
 
 body {
-    background-color: #e0ebe8;
+    background-color: #f5f5f5;
     font-size: 1em;
     text-align: center;
 }
@@ -38,21 +43,21 @@ body {
 }
 
 h1 {
-    color: #8d6c9f;
+    color: #27363b;
     font-family: 'Pacifico', sans-serif;
     font-size: 6rem;
     margin-bottom: 0;
 }
 
 h2 {
-    color: #8d6c9f;
+    color: #27363b;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5em;
     margin-bottom: 0;
 }
 
 h3 {
-    color: #c2cde7;
+    color: #637b81;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     margin-bottom: 0;
@@ -66,7 +71,7 @@ h4 {
 }
 
 h4.title {
-    color: #fbfcfd;
+    color: #637b81;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
     font-weight: 500;
@@ -81,7 +86,7 @@ h5 {
 }
 
 hr {
-    border-color: #d5dced;
+    border-color: #dfe8e7;
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
@@ -101,7 +106,7 @@ img.profile-pic {
 }
 
 p {
-    color: #8d6c9f;
+    color: #27363b;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     margin: 0;
@@ -137,7 +142,7 @@ p {
 }
 
 .separator {
-    color: #8d6c9f;
+    color: #27363b;
     font-size: 1.25em;
     font-weight: 600;
     text-decoration: none;
