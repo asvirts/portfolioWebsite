@@ -12,11 +12,11 @@ a.nav-link {
 }
 
 .btn {
-    
+    color: #637b81;
 }
 
 a:hover {
-    color: #637b81;
+    color: #27363b;
 }
 
 body {
