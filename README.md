@@ -1,5 +1,4 @@
-# portfolioWebsite
+# portfolio-website-2
+Practice makes perfect
 
-This is the code for my personal portoflio website.
-
-You can visit my website at https://virts.dev
+<a href="https://asvirts.github.io/portfolio-website-2/">Click here</a> to view the website on GitHub Pages

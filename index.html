@@ -2,27 +2,20 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ91E0JEDS"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-CJ91E0JEDS');
-        </script>
-
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Andrew Virts</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css\styles.css">
+        <link rel="icon" href="img\man.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap" rel="stylesheet">
+        <script src="scripts.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -32,88 +25,79 @@
         <script src="" async defer></script>
 
         <!-- Starts here -->
+
+        <div class="nav-menu">
+            <a href="https://github.com/asvirts">github</a> <span class="separator">|</span>
+            <a href="https://www.linkedin.com/in/andrewvirts">linkedin</a> <span class="separator">|</span>
+            <a href="https://twitter.com/asvirts">twitter</a>
+          </div>
         
-        <table>
-            <tr>
-                <td><img src="img\hpc-staff-circle.png" alt="Andrew Virts profile picture"></td>
-                <td><h1>Andrew Virts</h1>
-                <p><em>Associate Support Technician at <a href="https://www.opentext.com/" target="_blank"><strong>OpenText</strong></a></em></p>
-                <p>Front End Developer with UI/UX Design skillset.<br>
-                    I ❤ cold brew coffee and football.</p>
-                <p>
-                    <a href="https://github.com/asvirts" target="_blank">GitHub</a> |
-                    <a href="https://linkedin.com/in/andrewvirts" target="_blank">LinkedIn</a> |
-                    <a href="https://twitter.com/asvirts" target="_blank">Twitter</a>
-                </p></td>
-            </tr>
-        </table>
+        <div class="top-container">
+            <img class="right-cloud" src="img/cloud-new.png" alt="cloud icon">
+            <h1>Andrew Virts</h1>
+            <h4 class="title"><em>front end web developer</em></h4>
+            <img class="left-cloud" src="img/cloud-new.png" alt="cloud icon">
+            <img src="img/mountain.png" alt="mountain">
+        </div>
+
+        <hr>
+        
+        <div class="middle-container">
+            <div class="profile">
+              <img class="profile-pic" src="img\hpc-staff-circle.png" alt="Andrew Virts profile picture">
+              <h2>Hello.</h2>
+              <p>I'm a web developer / designer based in Lafayette, LA.</p>
+              <p>I have a passion for creating stunning websites and love to build for web and mobile devices.</p>
+            </div>
+
+            <hr>
             
-        <hr>
+            <div class="skills">
+                <h2>Projects</h2>
+                <div class="skill-row">
+                  <img class="skill-icon" src="img\phone.png" alt="mobile phone icon">
+                  <h3>iMessage</h3>
+                  <p>Created a server using a Mac Mini to access iMessage on Android phone using dynamic DNS and port forwarding</p>
+                </div>
+                <div class="skill-row">
+                    <img class="skill-icon" src="img\aws.png" alt="server icon">
+                    <h3>AWS</h3>
+                    <p>Implemented AWS hosting procedures using Amplify to publish this personal portfolio website</p>
+                    <p>Automatically updates when new code is committed to GitHub</p>
+                  </div>
+            </div>
 
-        <h3>Projects</h3>
+            
+            <hr>
 
-            <ul>
-                <li>Implemented AWS hosting procedures using Amplify to publish this personal portfolio website, <a href="https://github.com/asvirts/portfolioWebsite" target="_blank">committed code through GitHub</a></li>
-                <li>Created a server using a Mac Mini to access iMessage on Android phone using dynamic DNS and port forwarding</li>
-                <li>Set up home network with WPA3 security and alternative DNS</li>
-                <li>Built, maintained, and frequently upgraded my own fully custom computers</li>
-            </ul>
-        <hr>
+            <div class="skills">
+              <h2>Skills</h2>
+              <div class="skill-row">
+                <img class="skill-icon" src="img\skills.png" alt="man speaking icon">
+                <h3>Languages</h3>
+                <p>HTML, CSS, JavaScript</p>
+              </div>
+              <div class="skill-row">
+                <img class="skill-icon" src="img\computer.png" alt="computer icon">
+                <h3>Technical Skills</h3>
+                <p>Adobe Creative Suite, Windows, macOS, Linux, Virtual Machines, AWS, Azure, Office 365</p>
+              </div>
+            </div>
 
-        <h3>Work Experience</h3>
+            <hr>
+            
+            <div class="contact-me">
+                <h2>Contact</h2>
+                <h3>Let's collaborate on your project.</h3>
+                <a class="btn" href="mailto:andrew@virts.dev">click here to email me</a>
+            </div>
+          </div>
 
-            <table>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-                <tr>
-                    <td>2022-Prs</td>
-                    <td>Associate Support Technician at OpenText</td>
-                </tr>
-                <tr>
-                    <td>2018-2022</td>
-                    <td>Area Director at Young Life</td>
-                </tr>
-                <tr>
-                    <td>2016-2018</td>
-                    <td>Youth Creative Coordinator at Highland Park Church</td>
-                </tr>
-                <tr>
-                    <td>2013-2016</td>
-                    <td>Student Staff at Young Life</td>
-                </tr>
-                <tr>
-                    <td>2012-2013</td>
-                    <td>Greens Crew at Lone Palm Golf Course</td>
-                </tr>
-                <tr>
-                    <td>2011-2012</td>
-                    <td>Freelance Web Developer</td>
-                </tr>
-                <tr>
-                    <td>Spr 2010</td>
-                    <td>Web Development Intern at Church at the Mall</td>
-                </tr>
-                <tr>
-                    <td>2007-2011</td>
-                    <td>Team Member at Chick-fil-A</td>
-                </tr>
-            </table>
-
-        <hr>
-        
-        <h3>Skills</h3>
-
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Adobe Creative Suite</li>
-                <li>Windows, macOS, Linux, Virtual Machines</li>
-                <li>AWS</li>
-                <li>Azure</li>
-                <li>Office 365</li>
-                <li>Leadership</li>
-            </ul>
+          <hr>
+          
+          <div class="bottom-container">
+            <p><a href="https://www.flaticon.com/free-icons" alt="icons">icons created by flaticon</a></p>
+          </div>
 
     </body>
 </html>

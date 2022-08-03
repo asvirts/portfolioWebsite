@@ -1,0 +1,145 @@
+a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    padding-top: 30em;
+}
+
+a:hover {
+    color: #c2cde7;
+}
+
+body {
+    background-color: #e0ebe8;
+    font-size: 1em;
+    text-align: center;
+}
+
+.nav-menu {
+    padding-top: 1.5%;
+}
+
+.top-container {
+    background-color: #e0ebe8;
+    padding-top: 5%;
+    position: relative;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #c2cde7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #8d6c9f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+
+h4.title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+
+h5 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+hr {
+    border-color: #c2cde7;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin: 4em auto 4em auto;
+    width: 75px;
+}
+
+img {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+img.profile-pic {
+    height: auto;
+    width: 20em;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.page-header {
+    background-color: #e0ebe8;
+    padding: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 0 35%;
+  }
+
+.profile {
+
+}
+
+.left-cloud {
+    position: absolute;
+    left: 33%;
+    bottom: 35%;
+}
+
+.right-cloud {
+    position: absolute;
+    right: 28%;
+    top: 28%;
+}
+
+.skill-icon {
+    margin-top: 3em;
+}
+
+.separator {
+    color: #8d6c9f;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-decoration: none;
+}

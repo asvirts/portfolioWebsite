@@ -1,2 +1,2 @@
-let Andrew = 31
-console.log(Andrew)
+let andrew = 31
+console.log(andrew)
