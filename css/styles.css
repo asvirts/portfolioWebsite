@@ -34,7 +34,7 @@ body {
 }
 
 .top-container {
-    margin: 10em auto;
+    margin: 10em auto 2em auto;
     width: 75%;
     height: auto;
     display: flex;
@@ -113,9 +113,10 @@ img.profile-pic {
 }
 
 img.mountain {
-    margin: 0 auto;
+    display: inline-block;
+    margin: 0 auto 0 auto;
     height: auto;
-    width: 31%;
+    width: 35%;
 }
 
 p {
