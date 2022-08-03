@@ -13,7 +13,7 @@ a.nav-link {
 
 .nav-menu {
     margin: 2.5em auto 0 auto;
-    width: 23%;
+    width: 50%;
     height: auto;
     display: inline-block;
     flex-direction: column;
@@ -35,9 +35,9 @@ body {
 
 .top-container {
     margin: 10em auto;
-    width: 23%;
+    width: 75%;
     height: auto;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -110,6 +110,12 @@ img {
 img.profile-pic {
     height: auto;
     width: 20em;
+}
+
+img.mountain {
+    margin: 0 auto;
+    height: auto;
+    width: 31%;
 }
 
 p {
