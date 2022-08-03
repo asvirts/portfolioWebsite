@@ -1,13 +1,13 @@
 /* BODY ELEMENTS */
 
 body {
-    background-color: #F1F1F1;
+    background-color: #fff9e5;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #E2DCC8;
+    border-color: #a6a697;
     border-width: 5px;
     width: 75px;
 }
@@ -23,25 +23,26 @@ img {
 /* TEXT */
 
 a {
-    color: #928779;
+    color: #fe8b01;
+    font-weight: 600;
 }
 a:hover {
-    color: #0F3D3E;
+    color: #030f20;
 }
 h1,
 h3 {
-    color: #0F3D3E;
+    color: #fe8b01;
 }
 p {
-    color: #100F0F;
+    color: #030f20;
 }
 table {
     color: #100F0F;
     border-spacing: 10px;
 }
 th {
-    color: #0F3D3E;
+    color: #030f20;
 }
 ul {
-    color: #100F0F;
+    color: #030f20;
 }
