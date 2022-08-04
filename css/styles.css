@@ -146,9 +146,8 @@ p {
 }
 
 .right-cloud {
+    right: 35%;
     position: absolute;
-    right: 28%;
-    top: 28%;
 }
 
 .skill-icon {
