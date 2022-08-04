@@ -34,11 +34,10 @@ body {
 }
 
 .top-container {
-    margin: 10em auto 2em auto;
+    margin: 10em auto 0em auto;
     width: 75%;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 .middle-container {
