@@ -113,11 +113,10 @@ img.profile-pic {
 
 img.mountain {
     display: inline-block;
-    object-fit: contain;
     margin: 0 auto 0 auto;
     height: auto;
     width: 35%;
-    max-width: 100%;
+    min-width: 300px;
 }
 
 p {
