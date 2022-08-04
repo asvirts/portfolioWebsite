@@ -117,6 +117,7 @@ img.mountain {
     margin: 0 auto 0 auto;
     height: auto;
     width: 35%;
+    max-width: 100%;
 }
 
 p {
