@@ -13,10 +13,9 @@ a.nav-link {
 
 .nav-menu {
     margin: 2.5em auto 0 auto;
-    width: 50%;
+    width: 100%;
     height: auto;
     display: inline-block;
-    flex-direction: column;
 }
 
 .btn {
