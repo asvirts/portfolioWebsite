@@ -1,7 +1,7 @@
 a {
     color: #27363b;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.75vw;
+    font-size: 0.65vw;
     font-weight: 600;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@ a.nav-link {
 }
 
 a:hover {
-    color: #27363b;
+    color: #637b81;
 }
 
 body {
