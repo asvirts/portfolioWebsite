@@ -31,7 +31,7 @@ body {
 
 .top-container {
     margin: 10em auto 0em auto;
-    width: 75%;
+    width: 60%;
     height: auto;
     display: inline-block;
 }
@@ -40,8 +40,8 @@ body {
 
 }
 
-.bottom-container {
-
+.footer {
+    font-size: 75%;
 }
 
 h1 {
