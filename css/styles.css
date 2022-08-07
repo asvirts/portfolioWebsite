@@ -158,11 +158,9 @@ p {
     margin-top: 3em;
 }
 
-.separator {
-    color: #27363b;
-    font-size: 1.25em;
-    font-weight: 600;
-    text-decoration: none;
+.skills {
+    margin: auto auto;
+    max-width: 60%;
 }
 
 
