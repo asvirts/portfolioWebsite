@@ -19,6 +19,14 @@ a.nav-link {
     display: inline-block;
 }
 
+@media (max-width: 750px) {
+    .nav-menu {
+        margin: 8% auto 0 auto;
+        width: 90%;
+        display: inline-block;
+    }
+}
+
 a:hover {
     color: #637b81;
 }
@@ -62,6 +70,14 @@ body {
     width: 60%;
     height: auto;
     display: inline-block;
+}
+
+@media (max-width: 750px) {
+    .top-container {
+        margin: 10em auto 0em auto;
+        width: 80%;
+        display: inline-block;
+    }
 }
 
 .middle-container {
