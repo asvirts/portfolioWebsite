@@ -77,6 +77,12 @@ body {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
+
+@media (max-width: 768px) {
+    .btn-sm {
+        margin-top: 5%;
+    }
+}
   
   .btn:hover {
     background: #637b81;
@@ -97,7 +103,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .top-container {
         margin: 10em auto 0em auto;
         width: 80%;
@@ -160,12 +166,14 @@ h3.contact {
 }
 
 h3.project-title {
+    font-weight: 600;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     h3.project-title {
+        font-weight: 600;
         margin-top: 8%;
         margin-bottom: 8%;
     }
