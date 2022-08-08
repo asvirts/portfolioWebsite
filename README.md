@@ -1,4 +1,4 @@
-# portfolio-website-2
-Practice makes perfect
+# portfolio-website
+A showcase of what I've done for the world to see.
 
-<a href="https://asvirts.github.io/portfolio-website-2/">Click here</a> to view the website on GitHub Pages
+<a href="https://virts.dev>Click here</a> to view my website.
