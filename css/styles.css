@@ -270,6 +270,20 @@ p {
 
   .card-body {
     height: 44em;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .card-body {
+        height: 54em;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+        height: 54em;
+        width: auto;
+      }
   }
   
   .pricing .card {
