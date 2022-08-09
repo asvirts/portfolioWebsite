@@ -305,6 +305,7 @@ p {
   }
   
   .pricing .card-price {
+    color: #27363b;
     font-size: 3rem;
     margin: 0;
   }
