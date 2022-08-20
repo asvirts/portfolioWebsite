@@ -1,25 +1,14 @@
+/* Typography */
+
+.text-alt {
+    color:#607EAA;
+}
+
+
 /* Headings */
 
 h2 {
     color: #1C3879;
-}
-
-
-/* Buttons */
-
-#btn {
-    background-color: #1C3879;
-    color: white;
-}
-
-#btn:hover {
-    background-color: #607EAA;
-}
-
-
-
-hr {
-    width: 80%;
 }
 
 
