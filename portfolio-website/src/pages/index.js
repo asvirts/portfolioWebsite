@@ -1,10 +1,12 @@
-
+import Header from '../components/Header.js'
+import Title from '../components/Title.js'
 
 export default function Home() {
   return (
     <>
       <main>
-        <h1>Andrew Virts</h1>
+        <Header />
+        <Title />
       </main>
     </>
   )
