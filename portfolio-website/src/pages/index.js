@@ -7,6 +7,7 @@ export default function Home() {
       <main>
         <Header />
         <Title />
+        <p>It worked.</p>
       </main>
     </>
   )
