@@ -1,14 +1,13 @@
-import Header from '../components/Header.js'
+import Nav from '../components/Nav.js'
 import Title from '../components/Title.js'
 
 export default function Home() {
   return (
     <>
-      <main>
-        <Header />
+      <nav>
         <Title />
-        <p>It worked.</p>
-      </main>
+        <Nav />
+      </nav>
     </>
   )
 }
