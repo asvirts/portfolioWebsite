@@ -1,35 +1,42 @@
-import React, {useState} from 'react'
-import {Outlet, Link} from "react-router-dom"
-import About from "./about"
-import "../index.css"
+import React, { useState } from "react";
+import { Outlet, Link } from "react-router-dom";
+import About from "./about";
+import "../index.css";
 
 export async function loader() {
-  const about = await About()
-  return {about}
+  const about = await About();
+  return { about };
 }
 
 export default function Root() {
-    const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState("light");
 
-    return (
-        <div className={theme}>
-          <nav className='navbar'>
-          <img src="./a-logo.png" alt="logo" className='logo' />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to='about'>About</Link></li>
-            <li><Link to='projects'>Projects</Link></li>
-            <button onClick={() => setTheme(
-              theme === 'light' ? 'dark' : 'light'
-            )}>
-              Current theme: {theme}
-            </button>
-          </nav>
+  return (
+    <div className={theme}>
+      <nav className="navbar">
+        <img src="./a-logo.png" alt="logo" className="logo" />
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="about">About</Link>
+        </li>
+        <li>
+          <Link to="projects">Projects</Link>
+        </li>
+        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          Current theme: {theme}
+        </button>
+      </nav>
 
-          <h1>Software Engineer</h1>
+      <h1>Software Engineer</h1>
 
-          <div id="detail">
-            <Outlet />
-          </div>
-        </div>
-      );
-  }
+      <div class="row">
+        <div class="col-6">Hello</div>
+        <div class="col-6">Hello</div>
+      </div>
+
+      <Outlet />
+    </div>
+  );
+}

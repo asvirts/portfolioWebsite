@@ -1,7 +1,18 @@
-/* LIGHT THEME */
+/* FONT IMPORT */
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --lt-bg: #eee;
+  --lt-text: #1c2b33;
+
+  --dk-bg: #1c2b33;
+  --dk-text: #eee;
+}
+
+/* LIGHT THEME */
 .light {
-  background-color: #eee;
+  background-color: var(--lt-bg);
   color: #1c2b33;
   height: 100vh;
 }
@@ -25,10 +36,14 @@
   cursor: pointer;
 }
 
+.light button:hover {
+  background-color: #0668e1;
+}
+
 /* DARK THEME */
 
 .dark {
-  background-color: #1c2b33;
+  background-color: var(--dk-bg);
   color: #eee;
   height: 100vh;
 }
@@ -52,6 +67,24 @@
   cursor: pointer;
 }
 
+.dark button:hover {
+  background-color: #0668e1;
+}
+
+/* CARDS */
+
+.card {
+  background-color: #fff;
+  color: var(--lt-text);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  max-width: 16rem;
+  min-height: 12rem;
+}
+
 /* GLOBAL */
 
 body {
@@ -64,8 +97,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display, serif;
+}
+
 nav.navbar {
-  display: block;
   margin: auto;
   vertical-align: center;
 }
@@ -79,4 +120,26 @@ li {
 img.logo {
   width: 5rem;
   height: auto;
+}
+
+/* BUTTONS */
+
+a.btn-primary {
+  background-color: #0080fb;
+  color: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+a.btn-primary:hover {
+  background-color: #0668e1;
+  color: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
