@@ -64,8 +64,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+nav.navbar {
+  display: block;
+  margin: auto;
+  vertical-align: center;
+}
+
 li {
   list-style: none;
   display: inline-block;
   margin: 1rem 1rem;
+}
+
+img.logo {
+  width: 5rem;
+  height: auto;
 }

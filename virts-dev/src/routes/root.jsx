@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import {Outlet, Link} from "react-router-dom"
 import About from "./about"
 import "../index.css"
@@ -13,7 +13,8 @@ export default function Root() {
 
     return (
         <div className={theme}>
-          <nav>
+          <nav className='navbar'>
+          <img src="./a-logo.png" alt="logo" className='logo' />
             <li><Link to="/">Home</Link></li>
             <li><Link to='about'>About</Link></li>
             <li><Link to='projects'>Projects</Link></li>
