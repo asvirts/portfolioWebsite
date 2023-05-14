@@ -1,15 +1,55 @@
-/* THEME */
+/* LIGHT THEME */
 
 .light {
-  background-color: #fff;
-  color: #000;
+  background-color: #eee;
+  color: #1c2b33;
   height: 100vh;
 }
 
+.light a {
+  color: #0080fb;
+  text-decoration: none;
+}
+
+.light a:hover {
+  color: #0668e1;
+}
+
+.light button {
+  background-color: #0080fb;
+  color: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* DARK THEME */
+
 .dark {
-  background-color: #111;
-  color: #fff;
+  background-color: #1c2b33;
+  color: #eee;
   height: 100vh;
+}
+
+.dark a {
+  color: #0080fb;
+  text-decoration: none;
+}
+
+.dark a:hover {
+  color: #0668e1;
+}
+
+.dark button {
+  background-color: #0080fb;
+  color: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 /* GLOBAL */
@@ -27,5 +67,5 @@ body {
 li {
   list-style: none;
   display: inline-block;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
