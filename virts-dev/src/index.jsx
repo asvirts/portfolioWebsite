@@ -8,6 +8,7 @@ import "./index.css"
 import Root, {loader as rootLoader} from "./routes/root"
 import ErrorPage from "./error"
 import About from "./routes/about"
+import Projects from "./routes/projects"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
     ],
   },
