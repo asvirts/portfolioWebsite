@@ -1,9 +1,0 @@
-ul, li, h1 {
-    display: inline-flex;
-    align-self: center;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
