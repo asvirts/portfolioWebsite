@@ -29,7 +29,7 @@ export default function Root() {
         </button>
       </nav>
 
-      <h1>Software Engineer</h1>
+      <h1>Andrew Virts</h1>
 
       <div class="row">
         <div class="col-6">Hello</div>
