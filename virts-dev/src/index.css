@@ -121,6 +121,13 @@ p {
   color: var(--dk-text);
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
 nav.navbar {
   margin: auto;
   vertical-align: center;

@@ -14,19 +14,25 @@ export default function Root() {
   return (
     <div className={theme}>
       <nav className="navbar">
-        <img src="./a-logo.png" alt="logo" className="logo" />
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="about">About</Link>
-        </li>
-        <li>
-          <Link to="projects">Projects</Link>
-        </li>
-        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-          Current theme: {theme}
-        </button>
+        <div>
+          <img src="./a-logo.png" alt="logo" className="logo" />
+        </div>
+        <div>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="about">About</Link>
+          </li>
+          <li>
+            <Link to="projects">Projects</Link>
+          </li>
+          <button
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            Current theme: {theme}
+          </button>
+        </div>
       </nav>
 
       <h1>Andrew Virts</h1>
