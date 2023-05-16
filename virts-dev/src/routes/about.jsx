@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <>
+    <div className="container">
       <h2>Get to know the real me.</h2>
       <p>
         A curious learner and passionate creator sharing my journey with the
@@ -47,6 +47,6 @@ export default function About() {
       >
         LinkedIn
       </a>
-    </>
+    </div>
   );
 }
