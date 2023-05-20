@@ -13,11 +13,21 @@
   --heading: #1c2b33;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
 /* LIGHT THEME */
 .light {
   background-color: var(--lt-bg);
   color: #1c2b33;
-  height: 100vh;
+  height: 100%;
 }
 
 .light a {
@@ -48,7 +58,7 @@
 .dark {
   background-color: var(--dk-bg);
   color: #eee;
-  height: 100vh;
+  height: 100%;
 }
 
 .dark a {
@@ -101,6 +111,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 h1,
