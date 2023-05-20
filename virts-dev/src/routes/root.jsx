@@ -14,8 +14,9 @@ export default function Root() {
   return (
     <div className={theme}>
       <nav className="navbar">
-        <div>
+        <div className="logo-sec">
           <img src="./a-logo.png" alt="logo" className="logo" />
+          <h1 className="logo-name">Andrew Virts</h1>
         </div>
         <div>
           <li>
@@ -35,19 +36,7 @@ export default function Root() {
         </div>
       </nav>
 
-      <main className="container">
-        <div className="col-6">
-          <h1>Andrew Virts</h1>
-        </div>
-        <div className="col-6">
-          <p className="text-left">
-            A passionate and dedicated software engineer specializing in
-            creating cutting-edge solutions for today's digital landscape. I
-            have honed my skills in developing robust and scalable web
-            applications.
-          </p>
-        </div>
-      </main>
+      <main className="container"></main>
 
       <Outlet />
     </div>

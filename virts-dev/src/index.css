@@ -112,6 +112,11 @@ h6 {
   font-family: Playfair Display, serif;
 }
 
+h1.logo-name {
+  display: inline-block;
+  font-size: 3rem;
+}
+
 p {
   font-family: PT Sans, sans-serif;
 }
@@ -136,6 +141,12 @@ nav.navbar {
   vertical-align: center;
 }
 
+.logo-sec {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 li {
   list-style: none;
   display: inline-block;
@@ -145,6 +156,13 @@ li {
 img.logo {
   width: 5rem;
   height: auto;
+}
+
+img.about {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* BUTTONS */
@@ -159,6 +177,7 @@ a.btn-primary {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
+  max-width: 100px;
 }
 
 a.btn-primary:hover {

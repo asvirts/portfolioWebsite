@@ -51,8 +51,8 @@ export default function Projects() {
         <div class="card-body">
           <h3 class="card-title">Lord of the Rings</h3>
           <p class="card-text">
-            Built with React and hosted on Vercel, this site is a hub for all
-            things Lord of the Rings.
+            Built with React, this website explores the lore of J.R.R. Tolkien's
+            Middle-earth.
           </p>
           <a
             href="https://lotr-lore.vercel.app/"
@@ -63,6 +63,54 @@ export default function Projects() {
           </a>
           <a
             href="https://github.com/asvirts/lotr-lore"
+            class="btn-primary"
+            target="_blank"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Onyxia's Lair</h3>
+          <p class="card-text">
+            This is a text-based JavaScript game that I developed as a solo
+            project. Can YOU defeat Onyxia?
+          </p>
+          <a
+            href="https://asvirts.github.io/onyxias-lair"
+            class="btn-primary"
+            target="_blank"
+          >
+            View Live Site
+          </a>
+          <a
+            href="https://github.com/asvirts/onyxias-lair"
+            class="btn-primary"
+            target="_blank"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Password Generator</h3>
+          <p class="card-text">
+            Never use an insecure password again. Automatically generates a
+            secure password.
+          </p>
+          <a
+            href="https://asvirts.github.io/password-generator/"
+            class="btn-primary"
+            target="_blank"
+          >
+            View Live Site
+          </a>
+          <a
+            href="https://github.com/asvirts/password-generator"
             class="btn-primary"
             target="_blank"
           >
