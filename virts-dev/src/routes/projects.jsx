@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <>
-      <h2>Projects</h2>
+      <h2 className="text-center">Projects</h2>
 
       <div class="card">
         <div class="card-body">
@@ -10,16 +10,18 @@ export default function Projects() {
             This website is built in React and deployed to Vercel using the
             Vercel CLI.
           </p>
-          <a href="#" class="btn-primary">
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/portfolioWebsite"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a href="#" class="btn-primary">
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/portfolioWebsite"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -30,20 +32,22 @@ export default function Projects() {
             A website I built for a client that involved SEO work as well as
             lead generation.
           </p>
-          <a
-            href="https://rrwindowtinting.com"
-            class="btn-primary"
-            target="_blank"
-          >
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/r-and-r"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a
+              href="https://rrwindowtinting.com"
+              class="btn-primary"
+              target="_blank"
+            >
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/r-and-r"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -54,20 +58,22 @@ export default function Projects() {
             Built with React, this website explores the lore of J.R.R. Tolkien's
             Middle-earth.
           </p>
-          <a
-            href="https://lotr-lore.vercel.app/"
-            class="btn-primary"
-            target="_blank"
-          >
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/lotr-lore"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a
+              href="https://lotr-lore.vercel.app/"
+              class="btn-primary"
+              target="_blank"
+            >
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/lotr-lore"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -78,20 +84,22 @@ export default function Projects() {
             This is a text-based JavaScript game that I developed as a solo
             project. Can YOU defeat Onyxia?
           </p>
-          <a
-            href="https://asvirts.github.io/onyxias-lair"
-            class="btn-primary"
-            target="_blank"
-          >
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/onyxias-lair"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a
+              href="https://asvirts.github.io/onyxias-lair"
+              class="btn-primary"
+              target="_blank"
+            >
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/onyxias-lair"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -102,20 +110,22 @@ export default function Projects() {
             Never use an insecure password again. Automatically generates a
             secure password.
           </p>
-          <a
-            href="https://asvirts.github.io/password-generator/"
-            class="btn-primary"
-            target="_blank"
-          >
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/password-generator"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a
+              href="https://asvirts.github.io/password-generator/"
+              class="btn-primary"
+              target="_blank"
+            >
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/password-generator"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -126,20 +136,22 @@ export default function Projects() {
             A calculator app built with React. This was a fun project that
             challenged me to think outside the box.
           </p>
-          <a
-            href="https://github.com/asvirts/React-Calculator-App"
-            class="btn-primary"
-            target="_blank"
-          >
-            View Live Site
-          </a>
-          <a
-            href="https://github.com/asvirts/React-Calculator-App"
-            class="btn-primary"
-            target="_blank"
-          >
-            View on GitHub
-          </a>
+          <div className="flex">
+            <a
+              href="https://github.com/asvirts/React-Calculator-App"
+              class="btn-primary"
+              target="_blank"
+            >
+              View Live Site
+            </a>
+            <a
+              href="https://github.com/asvirts/React-Calculator-App"
+              class="btn-primary"
+              target="_blank"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
     </>

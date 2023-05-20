@@ -18,7 +18,7 @@ export default function Root() {
         </div>
         <div>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="home">Home</Link>
           </li>
           <li>
             <Link to="about">About</Link>
@@ -27,29 +27,17 @@ export default function Root() {
             <Link to="projects">Projects</Link>
           </li>
           <li>
-            <Link to="resume">Resume</Link>
-          </li>
-          <li>
             <Link to="https://www.linkedin.com/in/andrewvirts" target="_blank">
               LinkedIn
             </Link>
           </li>
+          <li>
+            <Link to="https://github.com/asvirts" target="_blank">
+              GitHub
+            </Link>
+          </li>
         </div>
       </nav>
-
-      <main className="container">
-        <h2>
-          A curious learner and passionate creator sharing my journey with the
-          world.
-        </h2>
-        <p>
-          I have had the opportunity to work on a diverse range of projects,
-          from small business websites to large-scale web applications. I am
-          highly collaborative and enjoy working with a team, but am also
-          comfortable taking on individual projects and seeing them through to
-          completion.
-        </p>
-      </main>
 
       <Outlet />
     </div>
