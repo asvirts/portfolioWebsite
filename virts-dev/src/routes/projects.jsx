@@ -118,6 +118,30 @@ export default function Projects() {
           </a>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">React Calculator App</h3>
+          <p class="card-text">
+            A calculator app built with React. This was a fun project that
+            challenged me to think outside the box.
+          </p>
+          <a
+            href="https://github.com/asvirts/React-Calculator-App"
+            class="btn-primary"
+            target="_blank"
+          >
+            View Live Site
+          </a>
+          <a
+            href="https://github.com/asvirts/React-Calculator-App"
+            class="btn-primary"
+            target="_blank"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
     </>
   );
 }
