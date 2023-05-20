@@ -26,6 +26,14 @@ export default function Root() {
           <li>
             <Link to="projects">Projects</Link>
           </li>
+          <li>
+            <Link to="resume">Resume</Link>
+          </li>
+          <li>
+            <Link to="https://www.linkedin.com/in/andrewvirts" target="_blank">
+              LinkedIn
+            </Link>
+          </li>
         </div>
       </nav>
 

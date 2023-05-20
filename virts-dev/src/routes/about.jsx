@@ -46,15 +46,6 @@ export default function About() {
           <li>Microsoft 365 Fundamentals</li>
           <li>CompTIA A+</li>
         </ul>
-
-        <a
-          href="https://www.linkedin.com/in/andrew-virts/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-primary"
-        >
-          LinkedIn
-        </a>
       </div>
     </div>
   );
