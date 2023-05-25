@@ -120,6 +120,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
+  background-color: #fff;
 }
 
 nav.navbar {
