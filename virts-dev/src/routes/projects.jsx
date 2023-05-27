@@ -109,18 +109,20 @@ export default function Projects() {
             A calculator app built with React. This was a fun project that
             challenged me to think outside the box.
           </p>
-          <div className="flex">
+          <div>
             <a
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View Live Site
+              View Live Site{" "}
+              <FontAwesomeIcon icon="fa-duotone fa-circle-chevron-right" />
             </a>
             <a
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View on GitHub
+              View on GitHub{" "}
+              <FontAwesomeIcon icon="fa-duotone fa-circle-chevron-right" />
             </a>
           </div>
         </div>
