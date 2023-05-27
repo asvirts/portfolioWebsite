@@ -5,11 +5,13 @@ export default function Projects() {
 
       <div class="card">
         <div class="card-body">
-          <h3 class="card-title">Virts.dev</h3>
-          <p class="card-text">
-            This website is built in React and deployed to Vercel using the
-            Vercel CLI.
-          </p>
+          <div>
+            <h3 class="card-title">Virts.dev</h3>
+            <p class="card-text">
+              This website is built in React and deployed to Vercel using the
+              Vercel CLI.
+            </p>
+          </div>
           <div className="flex">
             <a href="#" class="btn-primary">
               View Live Site
