@@ -13,12 +13,9 @@ export default function Projects() {
             </p>
           </div>
           <div className="flex">
-            <a href="#" class="btn-primary">
-              View Live Site
-            </a>
+            <a href="#">View Live Site</a>
             <a
               href="https://github.com/asvirts/portfolioWebsite"
-              class="btn-primary"
               target="_blank"
             >
               View on GitHub
@@ -35,18 +32,10 @@ export default function Projects() {
             lead generation.
           </p>
           <div className="flex">
-            <a
-              href="https://rrwindowtinting.com"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://rrwindowtinting.com" target="_blank">
               View Live Site
             </a>
-            <a
-              href="https://github.com/asvirts/r-and-r"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://github.com/asvirts/r-and-r" target="_blank">
               View on GitHub
             </a>
           </div>
@@ -61,18 +50,10 @@ export default function Projects() {
             Middle-earth.
           </p>
           <div className="flex">
-            <a
-              href="https://lotr-lore.vercel.app/"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://lotr-lore.vercel.app/" target="_blank">
               View Live Site
             </a>
-            <a
-              href="https://github.com/asvirts/lotr-lore"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://github.com/asvirts/lotr-lore" target="_blank">
               View on GitHub
             </a>
           </div>
@@ -87,18 +68,10 @@ export default function Projects() {
             project. Can YOU defeat Onyxia?
           </p>
           <div className="flex">
-            <a
-              href="https://asvirts.github.io/onyxias-lair"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://asvirts.github.io/onyxias-lair" target="_blank">
               View Live Site
             </a>
-            <a
-              href="https://github.com/asvirts/onyxias-lair"
-              class="btn-primary"
-              target="_blank"
-            >
+            <a href="https://github.com/asvirts/onyxias-lair" target="_blank">
               View on GitHub
             </a>
           </div>
@@ -115,14 +88,12 @@ export default function Projects() {
           <div className="flex">
             <a
               href="https://asvirts.github.io/password-generator/"
-              class="btn-primary"
               target="_blank"
             >
               View Live Site
             </a>
             <a
               href="https://github.com/asvirts/password-generator"
-              class="btn-primary"
               target="_blank"
             >
               View on GitHub
@@ -141,14 +112,12 @@ export default function Projects() {
           <div className="flex">
             <a
               href="https://github.com/asvirts/React-Calculator-App"
-              class="btn-primary"
               target="_blank"
             >
               View Live Site
             </a>
             <a
               href="https://github.com/asvirts/React-Calculator-App"
-              class="btn-primary"
               target="_blank"
             >
               View on GitHub
