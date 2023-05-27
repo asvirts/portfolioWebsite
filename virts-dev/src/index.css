@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: var(--lt-bg);
+  background-color: white;
   color: #1c2b33;
   height: 100%;
 }
