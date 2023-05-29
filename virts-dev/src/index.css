@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --lt-bg: #eee;
+  --lt-bg: #fff;
   --lt-text: #1c2b33;
 
   --md-gray: #344854;
@@ -53,8 +53,7 @@ button:hover {
 /* CARDS */
 
 .card {
-  background-color: #f1f4f7;
-  color: var(--lt-text);
+  background-color: #ddd;
   border-radius: 2px;
   padding: 8px 32px 8px 8px;
   margin: 1rem;
@@ -62,20 +61,31 @@ button:hover {
   max-width: 100%;
   width: 46%;
   flex-wrap: wrap;
-  line-height: 1;
-  height: 8em;
 }
 
 .card-body {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+}
+
+.card-title {
+  text-align: left;
+  line-height: 1;
+  padding: 0 16px;
 }
 
 .card-text {
   color: var(--lt-text) !important;
-  text-align: center;
+  text-align: left;
   line-height: 1;
   min-height: 3em;
+  padding: 0 16px;
+}
+
+.w-500 {
+  width: 500px;
+  max-width: 100%;
 }
 
 /* GLOBAL */
@@ -158,6 +168,10 @@ li {
   margin: 1rem 1rem;
 }
 
+img {
+  border-radius: 2px;
+}
+
 img.logo {
   width: auto;
   height: auto;
@@ -170,7 +184,6 @@ img.home-intro {
   object-fit: fill;
   display: block;
   max-width: 100%;
-  border-radius: 2px;
 }
 
 img.about {
@@ -178,6 +191,10 @@ img.about {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+img.proj {
+  max-width: 136px;
 }
 
 /* BUTTONS */
@@ -234,7 +251,7 @@ a.btn-primary:hover {
 }
 
 .text-left {
-  text-align: left;
+  text-align: left !important;
 }
 
 .text-center {
