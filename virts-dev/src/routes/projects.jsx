@@ -114,15 +114,13 @@ export default function Projects() {
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View Live Site{" "}
-              <FontAwesomeIcon icon="fa-duotone fa-circle-chevron-right" />
+              View Live Site
             </a>
             <a
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View on GitHub{" "}
-              <FontAwesomeIcon icon="fa-duotone fa-circle-chevron-right" />
+              View on GitHub
             </a>
           </div>
         </div>

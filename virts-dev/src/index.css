@@ -93,7 +93,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -101,6 +100,25 @@ h6 {
   font-family: Playfair Display, serif;
   color: var(--md-gray);
   text-align: left;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  letter-spacing: 0.012em;
+  color: #1c2b33;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tight {
+  max-width: 600px;
+}
+
+.d-block {
+  display: block;
 }
 
 h1.logo-name {
@@ -112,6 +130,7 @@ p {
   font-family: PT Sans, sans-serif;
   color: var(--gray);
   text-align: left;
+  line-height: 1;
 }
 
 nav {
@@ -147,10 +166,12 @@ img.logo {
 }
 
 img.home-intro {
-  width: auto;
-  height: auto;
+  width: 1200px;
+  height: 677px;
+  object-fit: fill;
+  display: block;
   max-width: 100%;
-  border-radius: 16px;
+  border-radius: 2px;
 }
 
 img.about {
@@ -210,11 +231,7 @@ a.btn-primary:hover {
 .container {
   max-width: 1600px;
   margin: auto;
-  padding: 0 72px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  text-align: -webkit-center;
 }
 
 .text-left {
@@ -227,9 +244,32 @@ a.btn-primary:hover {
 
 .flex {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gap {
+  gap: 16px;
+}
+
+.mx {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.my {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.my {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* BREAKPOINTS */
