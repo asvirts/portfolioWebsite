@@ -2,7 +2,7 @@ import DoSomethingGreat from "../assets/clark-tibbs-unsplash.jpg";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container my">
       <h2 className="tight flex text-center my-0 mx-0">
         A curious learner and passionate creator.
       </h2>
@@ -21,7 +21,7 @@ export default function Home() {
       <img
         src={DoSomethingGreat}
         alt="Do Something Great"
-        className="home-intro"
+        className="home-intro my"
       />
     </div>
   );
