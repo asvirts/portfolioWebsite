@@ -1,6 +1,9 @@
 import Bit16Coder from "../assets/83fc.jpg";
 import Bit16Fellowship from "../assets/fotr16.jpg";
 import Bit16Window from "../assets/16rr.jpg";
+import Bit16Onyxia from "../assets/16ony.jpg";
+import Bit16Hack from "../assets/hx16.jpg";
+import Bit16Calculator from "../assets/calc16.jpg";
 
 export default function Projects() {
   return (
@@ -19,14 +22,14 @@ export default function Projects() {
           </div>
           <div>
             <a className="d-block" href="#">
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/portfolioWebsite"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>
@@ -48,14 +51,14 @@ export default function Projects() {
               href="https://rrwindowtinting.com"
               target="_blank"
             >
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/r-and-r"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>
@@ -78,14 +81,14 @@ export default function Projects() {
               href="https://lotr-lore.vercel.app/"
               target="_blank"
             >
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/lotr-lore"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>
@@ -93,7 +96,7 @@ export default function Projects() {
 
       <div class="card">
         <div class="card-body">
-          <img src={Bit16Coder} className="proj" />
+          <img src={Bit16Onyxia} className="proj" />
           <div className="w-500 text-left">
             {" "}
             <h3 class="card-title">Onyxia's Lair</h3>
@@ -108,14 +111,14 @@ export default function Projects() {
               href="https://asvirts.github.io/onyxias-lair"
               target="_blank"
             >
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/onyxias-lair"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>
@@ -123,7 +126,7 @@ export default function Projects() {
 
       <div class="card">
         <div class="card-body">
-          <img src={Bit16Coder} className="proj" />
+          <img src={Bit16Hack} className="proj" />
           <div className="w-500 text-left">
             <h3 class="card-title">Password Generator</h3>
             <p class="card-text">
@@ -137,14 +140,14 @@ export default function Projects() {
               href="https://asvirts.github.io/password-generator/"
               target="_blank"
             >
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/password-generator"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>
@@ -152,7 +155,7 @@ export default function Projects() {
 
       <div class="card">
         <div class="card-body">
-          <img src={Bit16Coder} className="proj" />
+          <img src={Bit16Calculator} className="proj" />
           <div className="w-500 text-left">
             <h3 class="card-title">React Calculator App</h3>
             <p class="card-text">
@@ -166,14 +169,14 @@ export default function Projects() {
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View Live Site
+              Live
             </a>
             <a
               className="d-block"
               href="https://github.com/asvirts/React-Calculator-App"
               target="_blank"
             >
-              View on GitHub
+              GitHub
             </a>
           </div>
         </div>

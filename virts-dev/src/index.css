@@ -67,6 +67,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-title {
@@ -298,7 +299,17 @@ a.btn-primary:hover {
 
 @media (max-width: 768px) {
   .card {
-    width: 100%;
+    width: 90%;
+    display: block;
+  }
+
+  .card-title,
+  .card-text {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 100%;
   }
 
   .col-6 {
