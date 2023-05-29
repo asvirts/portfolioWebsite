@@ -4,8 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <h2 className="tight flex text-center my-0 mx-0">
-        A curious learner and passionate creator sharing my journey with the
-        world.
+        A curious learner and passionate creator.
       </h2>
       <div className="flex gap">
         <svg
