@@ -182,6 +182,7 @@ img.logo {
 img.home-intro {
   width: 1200px;
   height: 677px;
+  margin: 32px auto;
   object-fit: fill;
   display: block;
   max-width: 100%;
@@ -312,6 +313,11 @@ a.btn-primary:hover {
   .card-title,
   .card-text {
     text-align: center;
+  }
+
+  img.home-intro {
+    width: 100%;
+    height: auto;
   }
 
   .container {
