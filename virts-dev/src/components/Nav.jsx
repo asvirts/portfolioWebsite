@@ -7,8 +7,6 @@ export default function Nav() {
         <div className="logo-sec">
           <img src="./a-logo.png" alt="logo" className="logo" />
           <h1 className="logo-name">Andrew Virts</h1>
-        </div>
-        <div>
           <li>
             <Link to="home">Home</Link>
           </li>
@@ -18,6 +16,8 @@ export default function Nav() {
           <li>
             <Link to="projects">Projects</Link>
           </li>
+        </div>
+        <div>
           <li>
             <Link to="https://www.linkedin.com/in/andrewvirts" target="_blank">
               LinkedIn
