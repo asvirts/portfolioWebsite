@@ -247,6 +247,7 @@ a.btn-primary:hover {
 
 .container {
   max-width: 1600px;
+  padding: 16px;
   margin: auto;
   text-align: -webkit-center;
 }
