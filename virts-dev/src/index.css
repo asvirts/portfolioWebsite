@@ -304,8 +304,9 @@ a.btn-primary:hover {
 
 @media (max-width: 768px) {
   .card {
-    width: 90%;
+    width: 100%;
     display: block;
+    margin: 16px auto;
   }
 
   .card-title,
