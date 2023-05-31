@@ -7,6 +7,7 @@ import ErrorPage from "./error";
 import Home from "./routes/home";
 import About from "./routes/about";
 import Projects from "./routes/projects";
+import Art from "./routes/ai-art";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />
+      },
+      {
+        path: "/ai-art",
+        element: <Art />
       }
     ]
   }

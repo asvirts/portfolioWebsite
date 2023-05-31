@@ -16,6 +16,9 @@ export default function Nav() {
           <li>
             <Link to="projects">Projects</Link>
           </li>
+          <li>
+            <Link to="ai-art">AI Art</Link>
+          </li>
         </div>
         <div>
           <li>
