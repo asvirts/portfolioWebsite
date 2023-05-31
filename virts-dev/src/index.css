@@ -199,6 +199,15 @@ img.proj {
   max-width: 136px;
 }
 
+img.ai {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  display: inline;
+  border-radius: 2px;
+  margin: 10px;
+}
+
 /* BUTTONS */
 
 a.btn-primary {
@@ -318,6 +327,13 @@ a.btn-primary:hover {
   img.home-intro {
     width: 100%;
     height: auto;
+  }
+
+  img.ai {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
   }
 
   .container {

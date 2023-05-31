@@ -1,12 +1,22 @@
 import { Link } from "react-router-dom";
 
 import IrishCastle1 from "../assets/ai-art/de3e-4d3b.jpg";
+import IrishCastle2 from "../assets/ai-art/8520-498c.jpg";
+import IrishCastle3 from "../assets/ai-art/373f-410b.jpg";
+
+import Horse1 from "../assets/ai-art/5a48-444d.jpg";
+import Horse2 from "../assets/ai-art/9c46-448e.jpg";
+import Horse3 from "../assets/ai-art/cea0-40b9.jpg";
+
+import Gator1 from "../assets/ai-art/575a-4297.jpg";
+import Gator2 from "../assets/ai-art/0ba6-44fa.jpg";
+import Gator3 from "../assets/ai-art/5fb1-4148.jpg";
 
 export default function Art() {
   return (
     <div className="container my">
       <h2 className="tight flex text-center my-0 mx-0">
-        A curious learner and passionate creator.
+        A keen student and imaginative inventor.
       </h2>
       <div className="flex gap">
         <Link to="/projects">
@@ -23,7 +33,18 @@ export default function Art() {
           <p className="tight text-center">Learn more about my projects</p>
         </Link>
       </div>
-      <img src={IrishCastle1} alt="Irish Castle" className="home-intro my" />
+
+      <img src={IrishCastle1} alt="Irish Castle" className="ai my" />
+      <img src={IrishCastle2} alt="Irish Castle" className="ai my" />
+      <img src={IrishCastle3} alt="Irish Castle" className="ai my" />
+
+      <img src={Horse1} alt="Horse" className="ai my" />
+      <img src={Horse2} alt="Horse" className="ai my" />
+      <img src={Horse3} alt="Horse" className="ai my" />
+
+      <img src={Gator1} alt="Gator and a bird" className="ai my" />
+      <img src={Gator2} alt="Gator and a bird" className="ai my" />
+      <img src={Gator3} alt="Gator and a bird" className="ai my" />
     </div>
   );
 }
