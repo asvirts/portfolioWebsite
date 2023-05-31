@@ -20,7 +20,7 @@ export default function Nav() {
             <Link to="ai-art">AI Art</Link>
           </li>
         </div>
-        <div>
+        <div className="nav-r">
           <li>
             <Link to="https://www.linkedin.com/in/andrewvirts" target="_blank">
               LinkedIn
